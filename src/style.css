@@ -1,0 +1,5 @@
+.hello {
+  color: red;
+  background: url('./unicorn.png');
+  background-size: contain;
+}
