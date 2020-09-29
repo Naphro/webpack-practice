@@ -1,5 +1,24 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bangers";
+  src: url("./fonts//Bangers/Bangers-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .hello {
-  color: red;
-  background: url('./unicorn.png');
+  width: 300px;
+  height: 300px;
+  color: darkolivegreen;
+  background: url("./img/unicorn.png");
   background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "bangers", sans-serif;
 }
